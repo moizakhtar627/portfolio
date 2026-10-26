@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Get in Touch | wolfbyte – Mohiz Akhtar</title>
+<meta name="description" content="Contact Mohiz Akhtar (wolfbyte) on Email, Facebook or WhatsApp. Reply within one working day.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&family=Orbitron:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#04070A;--navy:#0A1330;--card:#0A111C;--line:#1A2740;--g:#38F047;--g2:#12C48B;--ink:#F2F6F8;--mut:#93A4B5;
+--grad:linear-gradient(90deg,#4DFF5A,#14C98A);
+--disp:'Bricolage Grotesque','Trebuchet MS',sans-serif;--body:'Instrument Sans','Segoe UI',Arial,sans-serif;--logo:'Orbitron','Trebuchet MS',sans-serif;
+box-sizing:border-box}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.7 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden;min-height:100svh}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--g);outline-offset:3px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 1.25rem;position:relative;z-index:2}
+h1,h2,h3{font-family:var(--disp);line-height:1.05;margin:0;letter-spacing:-.03em}
+.gt{background:var(--grad);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:gmove 7s linear infinite}
+@keyframes gmove{to{background-position:-250% 0}}
+@keyframes riseIn{from{opacity:0;transform:translate3d(0,44px,-100px) rotateX(-18deg)}to{opacity:1;transform:none}}
+@keyframes flipIn{0%{opacity:0;transform:perspective(1100px) rotateX(-78deg) scale(.9)}65%{opacity:1;transform:perspective(1100px) rotateX(10deg) scale(1.02)}100%{opacity:1;transform:perspective(1100px) rotateX(0)}}
+@keyframes floatY{0%,100%{translate:0 0}50%{translate:0 -14px}}
+@keyframes sheen{0%{transform:translateX(-160%) skewX(-20deg)}55%,100%{transform:translateX(320%) skewX(-20deg)}}
+@keyframes glowPulse{0%,100%{box-shadow:0 12px 34px rgba(56,240,71,.24)}50%{box-shadow:0 18px 50px rgba(56,240,71,.44)}}
+@keyframes aur1{0%{transform:translate3d(-6%,0,0) scale(1)}100%{transform:translate3d(10%,8%,0) scale(1.25)}}
+@keyframes aur2{0%{transform:translate3d(6%,4%,0) scale(1.1)}100%{transform:translate3d(-8%,-6%,0) scale(.9)}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(56,240,71,.6)}70%,100%{box-shadow:0 0 0 10px rgba(56,240,71,0)}}
+#spot{position:fixed;top:0;left:0;width:540px;height:540px;margin:-270px 0 0 -270px;border-radius:50%;background:radial-gradient(circle,rgba(56,240,71,.13),rgba(18,196,139,.05) 45%,transparent 70%);pointer-events:none;z-index:1;opacity:0;transition:opacity .5s;mix-blend-mode:screen}
+.bg3d{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.aur{position:absolute;border-radius:50%;filter:blur(80px);opacity:.55}
+.aur.a1{width:50vw;height:50vw;max-width:620px;max-height:620px;right:-10%;top:-12%;background:radial-gradient(circle,rgba(56,240,71,.5),transparent 70%);animation:aur1 15s ease-in-out infinite alternate}
+.aur.a2{width:44vw;height:44vw;max-width:540px;max-height:540px;left:-12%;bottom:-14%;background:radial-gradient(circle,rgba(18,196,139,.45),transparent 70%);animation:aur2 18s ease-in-out infinite alternate}
+.aur.a3{width:26vw;height:26vw;max-width:320px;max-height:320px;left:52%;top:44%;background:radial-gradient(circle,rgba(77,255,90,.3),transparent 70%);animation:aur2 21s ease-in-out infinite alternate}
+header.nav{position:sticky;top:0;z-index:20;background:rgba(4,7,10,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;justify-content:space-between;align-items:center;height:72px;gap:1rem}
+.logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;transition:transform .3s}
+.logo:hover{transform:rotateY(-14deg) scale(1.04)}
+.wm{font:800 1.15rem var(--logo);letter-spacing:.04em;color:#fff;text-transform:uppercase}
+.wm b{color:var(--g);font-weight:800}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.6rem 1.2rem;border-radius:999px;font:600 .92rem var(--body);text-decoration:none;border:1.5px solid var(--line);transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .3s,box-shadow .3s;cursor:pointer;color:var(--ink);background:transparent;transform-style:preserve-3d}
+.btn.solid{background:var(--grad);color:#03140A;border-color:transparent}
+.btn:hover{transform:perspective(700px) translateY(-4px) rotateX(12deg) scale(1.05);box-shadow:0 18px 40px rgba(56,240,71,.3);border-color:var(--g)}
+main{position:relative;padding:5.5rem 0 6rem;min-height:calc(100svh - 72px);display:flex;align-items:center}
+.hero-copy{max-width:44rem;perspective:1200px}
+.hero-copy>*{animation:riseIn .95s cubic-bezier(.2,.75,.25,1) both}
+.hero-copy>*:nth-child(1){animation-delay:.05s}
+.hero-copy>*:nth-child(2){animation-delay:.16s}
+.hero-copy>*:nth-child(3){animation-delay:.27s}
+.pill{display:inline-flex;gap:.6rem;align-items:center;border:1px solid rgba(56,240,71,.35);background:rgba(56,240,71,.07);border-radius:999px;padding:.4rem 1rem;font-size:.88rem;color:#BFF7C5;margin-bottom:1.4rem}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--g);animation:pulse 2s infinite}
+h1{font-size:clamp(2.6rem,7vw,5rem);font-weight:800}
+.lead{color:var(--mut);max-width:36rem;margin:1.3rem 0 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:3.2rem;perspective:1500px}
+.cc{position:relative;display:flex;flex-direction:column;gap:.9rem;padding:1.9rem;border-radius:22px;text-decoration:none;background:linear-gradient(180deg,var(--card),#070C14);border:1px solid var(--line);overflow:hidden;transform-style:preserve-3d;animation:flipIn .95s cubic-bezier(.2,.8,.25,1) both;transition:border-color .3s,box-shadow .3s;box-shadow:0 20px 50px rgba(0,0,0,.45)}
+.cc:nth-child(1){animation-delay:.35s}
+.cc:nth-child(2){animation-delay:.5s}
+.cc:nth-child(3){animation-delay:.65s}
+.cc::before{content:"";position:absolute;inset:0;background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(56,240,71,.16),transparent 62%);opacity:0;transition:opacity .3s}
+.cc:hover{border-color:rgba(56,240,71,.65);box-shadow:0 30px 60px rgba(56,240,71,.12)}
+.cc:hover::before{opacity:1}
+.cc .ico{width:64px;height:64px;border-radius:18px;display:grid;place-items:center;background:var(--navy);border:1px solid var(--line);transform:translateZ(46px);transition:transform .35s,box-shadow .35s;animation:floatY 5.5s ease-in-out infinite}
+.cc:nth-child(2) .ico{animation-delay:-1.6s}
+.cc:nth-child(3) .ico{animation-delay:-3.2s}
+.cc:hover .ico{transform:translateZ(70px) rotateX(14deg) scale(1.06);box-shadow:0 18px 36px rgba(56,240,71,.22)}
+.cc .ico svg{width:30px;height:30px}
+svg.st{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+svg.fl{fill:currentColor;stroke:none}
+.cc .ico.mail{color:#FFC46B}.cc .ico.face{color:#5EA8FF}.cc .ico.wa{color:#38F047}
+.cc h3{font-size:1.5rem;transform:translateZ(30px)}
+.cc p{margin:0;color:var(--mut);font-size:.98rem;transform:translateZ(24px)}
+.cc .val{margin-top:auto;padding-top:.9rem;display:flex;align-items:center;justify-content:space-between;gap:.8rem;font-weight:600;color:var(--g);font-size:.95rem;transform:translateZ(36px);border-top:1px solid var(--line)}
+.cc .val em{font-style:normal;color:var(--mut);font-weight:500}
+.back{display:inline-flex;align-items:center;gap:.5rem;margin-top:3rem;text-decoration:none;color:var(--mut);font-size:.95rem;transition:color .25s,transform .25s;animation:riseIn .95s .8s cubic-bezier(.2,.75,.25,1) both}
+.back:hover{color:var(--g);transform:translateX(-6px)}
+.foot{border-top:1px solid var(--line);padding:1.5rem 0;font-size:.9rem;color:var(--mut);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;background:#030507}
+@media (max-width:900px){.cards{grid-template-columns:1fr;gap:1.1rem}main{padding-top:3.5rem}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.hero-copy>*,.cc,.back{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="bg3d" aria-hidden="true"><div class="aur a1"></div><div class="aur a2"></div><div class="aur a3"></div></div>
+
+<header class="nav"><div class="wrap">
+<a class="logo" href="index.html" aria-label="wolfbyte home"><span class="wm">wolf<b>byte</b></span></a>
+<a class="btn solid" href="index.html">← Back to site</a>
+</div></header>
+
+<main><div class="wrap">
+<div class="hero-copy">
+<div><span class="pill"><i></i>Replies within one working day</span></div>
+<h1>Get in <span class="gt">Touch</span></h1>
+<p class="lead">Tell me what you’re building. Pick the channel you like best — Email, Facebook or WhatsApp — and I’ll get back to you fast.</p>
+</div>
+
+<div class="cards">
+<a class="cc" href="mailto:moizakhtar.info@gmail.com" aria-label="Email WolfByte">
+<span class="ico mail"><svg class="st" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m22 6-10 7L2 6"/></svg></span>
+<h3>Email</h3>
+<p>Best for detailed project briefs, quotes and files.</p>
+<span class="val">moizakhtar.info@gmail.com <em>Write →</em></span>
+</a>
+
+<a class="cc" href="https://www.facebook.com/profile.php?id=61595205705244" target="_blank" rel="noopener noreferrer" aria-label="WolfByte on Facebook (opens in a new tab)">
+<span class="ico face"><svg class="fl" viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></span>
+<h3>Facebook</h3>
+<p>Message the WolfByte page and follow the latest work.</p>
+<span class="val">WolfByte on Facebook <em>Open →</em></span>
+</a>
+
+<a class="cc" href="https://wa.me/923279177146?text=Hi%20WolfByte%2C%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" aria-label="Chat with WolfByte on WhatsApp (opens in a new tab)">
+<span class="ico wa"><svg class="fl" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"/></svg></span>
+<h3>WhatsApp</h3>
+<p>Fastest reply — quick questions, scope and pricing.</p>
+<span class="val">+92 327 9177146 <em>Chat →</em></span>
+</a>
+</div>
+
+<a class="back" href="index.html">← Back to home</a>
+</div></main>
+
+<footer class="foot"><div class="wrap" style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap">
+<span>© <span id="y">2026</span> <span class="wm" style="font-size:.85rem">wolf<b>byte</b></span> by Mohiz Akhtar. All rights reserved.</span>
+<span>Shopping? Visit <a href="https://akhtarmart.com" target="_blank" rel="noopener noreferrer" style="color:var(--g)">akhtarmart.com</a></span>
+</div></footer>
+
+<script>
+(function(){
+var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+var cards=[].slice.call(document.querySelectorAll('.cc'));
+cards.forEach(function(c){
+c.addEventListener('pointermove',function(e){
+var r=c.getBoundingClientRect(),px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;
+c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px');
+if(!rm)c.style.animation='none',c.style.transform='perspective(1100px) rotateX('+(-py*9).toFixed(2)+'deg) rotateY('+(px*11).toFixed(2)+'deg) translateY(-8px) translateZ(20px)';
+});
+c.addEventListener('pointerleave',function(){c.style.transform='';c.style.animation=''});
+});
+var sp=document.createElement('div');sp.id='spot';document.body.appendChild(sp);
+if(matchMedia('(pointer:fine)').matches){
+addEventListener('pointermove',function(e){sp.style.opacity='1';sp.style.transform='translate3d('+e.clientX+'px,'+e.clientY+'px,0)'},{passive:true});
+addEventListener('pointerleave',function(){sp.style.opacity='0'});
+}
+document.getElementById('y').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
