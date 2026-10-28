@@ -209,6 +209,21 @@ footer .fnav a:hover{transform:translateX(6px)}
 @media (max-width:900px){.pgrid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:700px){.pgrid{grid-template-columns:repeat(2,1fr)}#spot{display:none}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}.rv,.rv3d{opacity:1;transform:none}}
+
+/* ===== Proof of Work ===== */
+.pow{background:linear-gradient(180deg,transparent,rgba(10,19,48,.35),transparent)}
+.pow .k{display:inline-block;font:600 .9rem var(--body);color:var(--g);margin-bottom:.9rem;border:1px solid rgba(56,240,71,.3);border-radius:999px;padding:.2rem .9rem}
+.powh{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800;margin:.4rem 0 1rem}
+.powsub{color:var(--mut);margin:0 0 2rem;max-width:40rem}
+.powcard{max-width:380px;margin:0 auto;border-radius:24px;border:1.5px solid var(--line);overflow:hidden;background:linear-gradient(180deg,var(--card),#070C14);box-shadow:0 20px 50px rgba(0,0,0,.45);transition:border-color .3s,box-shadow .3s,transform .3s}
+.powcard:hover{border-color:rgba(56,240,71,.6);box-shadow:0 30px 60px rgba(56,240,71,.12);transform:translateY(-6px)}
+.powvid{width:100%;aspect-ratio:9/16;max-height:70vh;background:#000;display:block;object-fit:contain}
+.powinfo{padding:1.2rem 1.4rem 1.4rem;border-top:1px solid var(--line)}
+.powinfo h3{font-size:1.25rem;margin:0 0 .4rem;color:#fff}
+.powinfo p{margin:0;color:#E5E7EB;font-size:.95rem;line-height:1.5}
+@media (max-width:900px){.powvid{max-height:60vh}}
+@media (max-width:560px){.powvid{max-height:70vh}}
+
 </style>
 </head>
 <body>
@@ -291,6 +306,17 @@ footer .fnav a:hover{transform:translateX(6px)}
 </div>
 </div>
 </div></section>
+<section id="proof-of-work" class="pow"><div class="wrap">
+<div class="sh rv3d"><span class="k">Proof of Work</span><h2 class="powh"><span style="color:#fff">Proof of</span> <span style="color:var(--g)">Work</span></h2><p class="powsub">Real projects. Real skills. Real results.</p></div>
+<div class="powcard rv3d">
+<video class="powvid" src="videos/wolfbyte_promo_v2.mp4" poster="akhtarmart.png" controls preload="metadata" playsinline></video>
+<div class="powinfo">
+<h3>Wolfbyte Project Demo</h3>
+<p>A demonstration of my work, skills, and projects.</p>
+</div>
+</div>
+</div></section>
+
 
 <section id="process" style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
 <div class="sh rv"><span class="k">Process</span><h2>A simple process with <span class="gt">no surprises</span></h2></div>
